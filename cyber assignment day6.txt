@@ -1,0 +1,30 @@
+(due to low specs the softwares are not responding)
+
+questions
+1. Create payload for windows.
+2. Transfer the payload to the victim's machine.
+ 3. Exploit the victim's machine. 
+
+answer
+Start the services
+service ssh start
+make a directory mkdir counterstrike
+Change the directory to /var/www/html/counterstrike
+create the payload using msfvenom
+Set the LHOST so that the machine can get shell and other access.
+
+
+
+
+
+Question 2:
+•Create an FTP server
+•Access FTP server from windows command prompt
+•Do an mitm and username and password of FTP transaction using wireshark and dsniff.
+
+
+answer
+Create FTP in Victim and Able to log in in FTP from Pen Tester System
+Using dsniff and Wireshark where the Username & Password of Ftp transaction is displayed below 
+Username of FTP: - Harry1
+Password: - 1234@abcd
